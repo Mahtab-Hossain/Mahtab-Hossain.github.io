@@ -64,3 +64,76 @@ nav a {
   nav a:hover::before {
 	width: 100%;
   }
+
+section{
+    padding:0px;
+	position: relative;
+    border-bottom: var(--border-light);
+	background-color: #550a0a;
+}
+.btn {
+    position: relative;
+    display: inline-block;
+    padding: 1rem 2rem;
+    text-decoration:none;
+    color: rgb(0, 30, 68) ;
+    border: 1px solid;
+    font-weight: 400;
+}
+.btn:focus {
+    outline-color: #917c7c77;
+	outline-offset: 5px;
+}
+.btn::after {
+    content: '';
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 100%;
+    background: black;
+    height: 100%;
+    z-index: -1;
+    transition: all 0.5s ;
+}
+.btn:hover::after,
+.btn:focus::after {
+    right: 0;
+    background: var(--pink);
+}
+.btn--pink {
+    background: var(--pink);
+    transition: all 0.2s;
+}
+.btn--pink::after {
+    display: none;
+}
+.btn--pink:hover,
+.btn--pink:focus {
+    background:transparent;
+}
+
+/* about section styles*/
+
+.about__content {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+	background-color: wheat;
+	float: left;
+	
+}
+.about__text {
+	flex: 0  30%;
+}
+.about__photo{
+	display: block;
+	border-bottom: #01741e 2px solid;
+	border-left: rgb(69, 143, 0) 2px solid;
+	border-right: #096b63 2px solid;
+	border-width: 1px;
+	width: 350px;
+	border-radius: 120px;
+	position: relative;
+
+}
