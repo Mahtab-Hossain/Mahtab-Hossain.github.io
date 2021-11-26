@@ -137,3 +137,33 @@ section{
 	position: relative;
 
 }
+/* skill section styles*/
+
+.skills {
+  background-image: linear-gradient(#1d0d33, #26703f);
+  
+  width: auto;
+  text-align: center;
+  margin-top: 340px;
+}
+
+.skill-header {
+  margin-bottom: 5px;
+}
+
+.skills-wrapper img {
+  padding: 1.25rem;
+}
+
+.icon {
+  width: 100px;
+  height: 100px;
+}
+
+.icon-card {
+  background-color: rgb(255, 255, 255);
+  border-radius: 50px;
+  box-shadow: 0 3px 10px #000000;
+  padding: 5px;
+  margin: 10px;
+}
