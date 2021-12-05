@@ -119,12 +119,19 @@ section{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-	background-color: wheat;
+    background-image: linear-gradient(#1d0d33, #26703f);
 	float: left;
+  
 	
 }
 .about__text {
 	flex: 0  30%;
+}
+.row{
+  padding: 1px;
+  text-align: center;
+  background-image: linear-gradient(#26703f,#1d0d33);
+
 }
 .about__photo{
 	display: block;
@@ -134,8 +141,7 @@ section{
 	border-width: 1px;
 	width: 350px;
 	border-radius: 120px;
-	position: relative;
-
+	position:relative;
 }
 /* skill section styles*/
 
@@ -179,17 +185,16 @@ section{
   box-shadow:0 3px 10px #26703f;
   padding: 5px;
   margin: 10px;
-  
-  
+   
 }
 .re {
   width: 100px;
   height: 100px;
 }
 .research{
-  background-image: linear-gradient(#1d0d33, #26703f);
+  background-image: linear-gradient(#26703f,#1d0d33);
   
   width: auto;
   text-align: center;
-  margin-top: 140px;
+  margin-top: 1px;
 }
