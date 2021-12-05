@@ -167,3 +167,9 @@ section{
   padding: 5px;
   margin: 10px;
 }
+.re-wrapper img {
+  padding: 1.25rem;
+}
+.re-header {
+  margin-bottom: 5px;
+}
