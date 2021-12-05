@@ -163,7 +163,7 @@ section{
 .icon-card {
   background-color: rgb(255, 255, 255);
   border-radius: 50px;
-  box-shadow: 0 3px 10px #000000;
+  box-shadow: 0 3px 10px #110606;
   padding: 5px;
   margin: 10px;
 }
@@ -172,4 +172,24 @@ section{
 }
 .re-header {
   margin-bottom: 5px;
+}
+.re-card{
+  background-color: #c4dad6;
+  border-radius: 80px;
+  box-shadow:0 3px 10px #26703f;
+  padding: 5px;
+  margin: 10px;
+  
+  
+}
+.re {
+  width: 100px;
+  height: 100px;
+}
+.research{
+  background-image: linear-gradient(#1d0d33, #26703f);
+  
+  width: auto;
+  text-align: center;
+  margin-top: 140px;
 }
