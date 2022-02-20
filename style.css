@@ -16,26 +16,28 @@ body{
     height:50%;
     z-index:-auto;
     background-image: linear-gradient(#1d0d33, #26703f);
-    border-top-left-radius: 50px;
-    border-top-right-radius:50px;
-    border-bottom-left-radius: 200px 60px;
-    border-bottom-right-radius: 200px 60px;
+    border-top-left-radius: 0px;
+    border-top-right-radius:0px;
+    border-bottom-left-radius: 150px 40px;
+    border-bottom-right-radius: 150px 40px;
   }
 
 nav{
 	float: middle;
 }
 .navber_container{
-	width: 80%;
+	width: auto;
 	margin: 0 auto;
-	background-color: #150b24;
+	background-color: #242735;
+  text-align: center;
 }
 nav li {
 	display: inline-block;
-	margin-left: 50px;
-	padding-top: 5px;
+	margin-left: auto;
+	padding-top: auto;
 	position: sticky;
-	padding-left: 80px;
+	padding-left: 10px;
+  padding-right: 20px;
 }
 nav a {
 	color: #444;
@@ -135,12 +137,10 @@ section{
 }
 .about__photo{
 	display: block;
-	border-bottom: #01741e 2px solid;
-	border-left: rgb(69, 143, 0) 2px solid;
-	border-right: #096b63 2px solid;
+  align-items: left;
 	border-width: 1px;
 	width: 350px;
-	border-radius: 120px;
+	border-radius: 80px;
 	position:relative;
 }
 /* skill section styles*/
@@ -168,33 +168,43 @@ section{
 
 .icon-card {
   background-color: rgb(255, 255, 255);
-  border-radius: 50px;
+  border-radius: 30px;
   box-shadow: 0 3px 10px #110606;
   padding: 5px;
   margin: 10px;
 }
-.re-wrapper img {
-  padding: 1.25rem;
-}
-.re-header {
-  margin-bottom: 5px;
-}
-.re-card{
-  background-color: #c4dad6;
-  border-radius: 80px;
-  box-shadow:0 3px 10px #26703f;
-  padding: 5px;
-  margin: 10px;
-   
-}
-.re {
-  width: 100px;
-  height: 100px;
-}
-.research{
-  background-image: linear-gradient(#26703f,#1d0d33);
+/*research section*/
+.research {
+  background-image: linear-gradient(#1d0d33, #26703f);
   
   width: auto;
   text-align: center;
-  margin-top: 1px;
+  margin-top: 40px;
+}
+
+.re-header {
+  margin-bottom: 5px;
+}
+
+.re-wrapper img {
+  padding: 1.25rem;
+}
+
+
+
+/*interest section*/
+.interest {
+  background-image: linear-gradient(#1d0d33, #26703f);
+  
+  width: auto;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.int-header {
+  margin-bottom: 5px;
+}
+
+.int-wrapper img {
+  padding: 1.25rem;
 }
