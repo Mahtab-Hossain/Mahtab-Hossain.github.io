@@ -2,7 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:400,600');
 
 body{
-    background-color:#242735;
+    /*background-color:#242735;*/
+    background-color:#2a1f38;
     font-family: 'Montserrat';
     font-weight: 300px;
   }
@@ -15,11 +16,13 @@ body{
     width:auto;
     height:50%;
     z-index:-auto;
-    background-image: linear-gradient(#1d0d33, #26703f);
+    /*background-image: linear-gradient(#1d0d33, #26703f);*/
+    background-color: #9c5f47;
     border-top-left-radius: 0px;
     border-top-right-radius:0px;
     border-bottom-left-radius: 150px 40px;
     border-bottom-right-radius: 150px 40px;
+    color: #45A29E;
   }
 
 nav{
@@ -28,7 +31,7 @@ nav{
 .navber_container{
 	width: auto;
 	margin: 0 auto;
-	background-color: #242735;
+	background-color: #2a1f38;
   text-align: center;
 }
 nav li {
@@ -121,8 +124,9 @@ section{
     display: flex;
     flex-direction: row-reverse;
     align-items: center;
-    background-image: linear-gradient(#1d0d33, #26703f);
-	float: left;
+    /*background-image: linear-gradient(#1d0d33, #26703f);*/
+    float: left;
+    color: #45A29E;
   
 	
 }
@@ -132,7 +136,9 @@ section{
 .row{
   padding: 1px;
   text-align: center;
-  background-image: linear-gradient(#26703f,#1d0d33);
+  color: #45A29E;
+  /*background-image: linear-gradient(#26703f,#1d0d33);*/
+  background-color: #2f484e;
 
 }
 .about__photo{
@@ -146,8 +152,9 @@ section{
 /* skill section styles*/
 
 .skills {
-  background-image: linear-gradient(#1d0d33, #26703f);
-  
+  /*background-image: linear-gradient(#1d0d33, #26703f);*/
+  color: #45A29E;
+  background-color: #2f484e;
   width: auto;
   text-align: center;
   margin-top: 340px;
@@ -175,8 +182,9 @@ section{
 }
 /*research section*/
 .research {
-  background-image: linear-gradient(#1d0d33, #26703f);
-  
+  /*background-image: linear-gradient(#1d0d33, #26703f);*/
+  background-color: #b65833;
+  color: #45A29E;
   width: auto;
   text-align: center;
   margin-top: 40px;
@@ -194,8 +202,9 @@ section{
 
 /*interest section*/
 .interest {
-  background-image: linear-gradient(#1d0d33, #26703f);
-  
+  /*background-image: linear-gradient(#1d0d33, #26703f);*/
+  background-color: #2f484e;
+  color: #45A29E;
   width: auto;
   text-align: center;
   margin-top: 40px;
