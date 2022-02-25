@@ -161,7 +161,9 @@ section{
 	display: block;
   align-items: left;
 	border-width: 1px;
-	width: 350px;
+	/*width: 350px;*/
+  max-width: 100%;
+  height: auto;
 	border-radius: 80px;
 	position:relative;
 }
