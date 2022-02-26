@@ -137,45 +137,44 @@ section{
 /* about section styles*/
 
 .about__content {
-    display: flex;
+    display:flex;
     flex-direction: row-reverse;
     align-items: center;
     /*background-image: linear-gradient(#1d0d33, #26703f);*/
-    float: left;
+    float:calc();
     color: #45A29E;
   
 	
 }
-.about__text {
-	flex: 0  30%;
-}
+
 .row{
-  padding: 1px;
-  text-align: center;
+  padding: 5px;
+  text-align: left;
   color: #45A29E;
   /*background-image: linear-gradient(#26703f,#1d0d33);*/
   background-color: #2f484e;
 
 }
 .about__photo{
-	display: block;
-  align-items: left;
+	display:flex;
+  align-items:flex-start;
 	border-width: 1px;
 	/*width: 350px;*/
   max-width: 100%;
   height: auto;
-	border-radius: 80px;
-	position:relative;
+	border-radius: 30px;
+	position:static;
 }
 /* skill section styles*/
 
 .skills {
   /*background-image: linear-gradient(#1d0d33, #26703f);*/
+  float: calc();
   color: #45A29E;
   background-color: #2f484e;
   width: auto;
   text-align: center;
-  margin-top: 340px;
+  
 }
 
 .skill-header {
@@ -189,6 +188,7 @@ section{
 .icon {
   width: 100px;
   height: 100px;
+ 
 }
 
 .icon-card {
@@ -201,15 +201,16 @@ section{
 /*research section*/
 .research {
   /*background-image: linear-gradient(#1d0d33, #26703f);*/
+  float: center;
   background-color: #b65833;
   color: #45A29E;
   width: auto;
   text-align: center;
-  margin-top: 40px;
+
 }
 
 .re-header {
-  margin-bottom: 5px;
+  margin-bottom: 0px;
 }
 
 .re-wrapper img {
@@ -217,15 +218,14 @@ section{
 }
 
 
-
 /*interest section*/
 .interest {
   /*background-image: linear-gradient(#1d0d33, #26703f);*/
+  float:middle;
   background-color: #2f484e;
   color: #45A29E;
   width: auto;
   text-align: center;
-  margin-top: 40px;
 }
 
 .int-header {
