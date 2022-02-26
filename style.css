@@ -91,7 +91,7 @@ section{
     border-bottom: var(--border-light);
 	background-color: #c7ca16;
 }
-.btn {
+.btn {  
     position: relative;
     display: inline-block;
     padding: 1rem 2rem;
@@ -147,8 +147,8 @@ section{
 }
 
 .row{
-  padding: 5px;
-  text-align: left;
+  padding: 0px;
+  text-align: center;
   color: #dd9191;
   /*background-image: linear-gradient(#26703f,#1d0d33);*/
   background-color: #c03131;
