@@ -19,7 +19,7 @@
 
 body{
     /*background-color:#242735;*/
-    background-color:#2a1f38;
+    background-color:#000000;
     font-family: 'Montserrat';
     font-weight: 300px;
   }
@@ -33,12 +33,12 @@ body{
     height:50%;
     z-index:-auto;
     /*background-image: linear-gradient(#1d0d33, #26703f);*/
-    background-color: #9c5f47;
-    border-top-left-radius: 0px;
-    border-top-right-radius:0px;
-    border-bottom-left-radius: 150px 40px;
-    border-bottom-right-radius: 150px 40px;
-    color: #45A29E;
+    background-color: #ebee41;
+    border-bottom-left-radius: 150px 190px;
+    border-bottom-right-radius: 150px 190px;
+    border-top-left-radius: 150px 190px;
+    border-top-right-radius: 150px 190px;
+    color: #685517;
   }
 
 nav{
@@ -47,7 +47,7 @@ nav{
 .navber_container{
 	width: auto;
 	margin: 0 auto;
-	background-color: #2a1f38;
+	background-color: #000000;
   text-align: center;
 }
 nav li {
@@ -67,18 +67,17 @@ nav a {
   }
   
   nav a:hover {
-	color: rgb(2, 168, 91);
+	color: #ebee41;
   }
   nav a::before {
 	content: '';
 	display: block;
 	height: 5px;
-	background-color: #0a473e;
+	background-color: #ebee41;
   
 	position: relative;
-	top: 0;
+	top: 0%;
 	width: 0%;
-  
 	transition: all ease-in-out 100ms;
   }
   
@@ -90,14 +89,14 @@ section{
     padding:0px;
 	position: relative;
     border-bottom: var(--border-light);
-	background-color: #550a0a;
+	background-color: #c7ca16;
 }
 .btn {
     position: relative;
     display: inline-block;
     padding: 1rem 2rem;
     text-decoration:none;
-    color: rgb(0, 30, 68) ;
+    color: rgb(33, 34, 8) ;
     border: 1px solid;
     font-weight: 400;
 }
@@ -142,7 +141,7 @@ section{
     align-items: center;
     /*background-image: linear-gradient(#1d0d33, #26703f);*/
     float:calc();
-    color: #45A29E;
+    color: #dd9191;
   
 	
 }
@@ -150,9 +149,9 @@ section{
 .row{
   padding: 5px;
   text-align: left;
-  color: #45A29E;
+  color: #dd9191;
   /*background-image: linear-gradient(#26703f,#1d0d33);*/
-  background-color: #2f484e;
+  background-color: #c03131;
 
 }
 .about__photo{
@@ -170,8 +169,8 @@ section{
 .skills {
   /*background-image: linear-gradient(#1d0d33, #26703f);*/
   float: calc();
-  color: #45A29E;
-  background-color: #2f484e;
+  color: #685517;
+  background-color: #ebee41;
   width: auto;
   text-align: center;
   
@@ -202,8 +201,8 @@ section{
 .research {
   /*background-image: linear-gradient(#1d0d33, #26703f);*/
   float: center;
-  background-color: #b65833;
-  color: #45A29E;
+  background-color: #c03131;
+  color: #dd9191;
   width: auto;
   text-align: center;
 
@@ -222,8 +221,8 @@ section{
 .interest {
   /*background-image: linear-gradient(#1d0d33, #26703f);*/
   float:middle;
-  background-color: #2f484e;
-  color: #45A29E;
+  background-color: #ebee41;
+  color: #685517;
   width: auto;
   text-align: center;
 }
