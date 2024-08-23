@@ -4,7 +4,7 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
-        <meta name="author" content="" />
+        <meta name="author" content="Md. Mahtab Hossain Bhuiyan" />
         <title>Md. Mahtab Hossain Bhuiyan</title>
         <link rel="icon" type="image/x-icon" href="assets/img/favicon.ico" />
         <!-- Font Awesome icons (free version)-->
@@ -31,7 +31,7 @@
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
                     <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#awards">Certification</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#certifications">Certification</a></li>
                 </ul>
             </div>
         </nav>
@@ -44,17 +44,31 @@
                         <span style="color: rgb(249, 43, 43);">Md. Mahtab</span>
                         <span class="" style="color:black;">Hossain Bhuiyan</span>
                     </h1>
-                    <div class="subheading mb-5">
+                    <!-- <div class="subheading mb-5">
                         Dhaka · Dhaka Division , 1103 · Bangladesh · 23.7966199 · 90.3823336 
-                        <a href="mailto:name@email.com">mahtab.hossain.bhuiyan@gmail.com</a>
+                        <button id="contact-button" class="contact-button">Contact Me</button>
+                        <div id="contact-info" class="contact-info">
+                            <a href="mailto:mahtab.hossain.bhuiyan@gmail.com" class="contact-email">mahtab.hossain.bhuiyan@gmail.com</a>
+                        </div>
+                    </div> -->
+                    <div class="subheading mb-5">
+                        Dhaka · Dhaka Division, 1103 · Bangladesh · 23.7966199 · 90.3823336
+                        <button id="contact-button" class="contact-button">Contact Me</button>
+                    </div>
+                    
+                    <!-- Modal Structure -->
+                    <div id="contact-modal" class="modal">
+                        <div class="modal-content">
+                            <span class="close">&times;</span>
+                            <p class="contact-address">Dhaka · Dhaka Division, 1103 · Bangladesh · 23.7966199 · 90.3823336</p>
+                            <a href="mailto:mahtab.hossain.bhuiyan@gmail.com" class="contact-email">mahtab.hossain.bhuiyan@gmail.com</a>
+                        </div>
                     </div>
                     <p class="lead mb-5">I am experienced in leveraging agile frameworks to provide a robust synopsis for high level overviews. Iterative approaches to corporate strategy foster collaborative thinking to further the overall value proposition.</p>
                     <div class="social-icons">
-                        <a class="social-icon" href="#!"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://www.linkedin.com/in/mahtab-hossain-8a2299167/"><i class="fab fa-linkedin-in"></i></a>
                         <a class="social-icon" href="https://github.com/Mahtab-Hossain"><i class="fab fa-github"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-twitter"></i></a>
-                        <a class="social-icon" href="#!"><i class="fab fa-facebook-f"></i></a>
-                        <a class="social-icon" href="#!"><i class="fa-brands fa-stack-overflow"></i></a>
+                        <a class="social-icon" href="https://stackoverflow.com/users/26969209/mahtab-hossain?tab=profile"><i class="fa-brands fa-stack-overflow"></i></a>
                     </div>
                 </div>
             </section>
@@ -65,13 +79,18 @@
                     <h2 class="mb-5 experience-heading">Experience</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Senior Web Developer</h3>
-                            <div class="subheading mb-3">Intelitec Solutions</div>
-                            <p>Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.</p>
+                            <h3 class="mb-0">Full Stack Developer</h3>
+                            <div class="subheading mb-3">Niyontron: Contract based project</div>
+                            <p><strong>January 2024 - Present | Dhaka, Bangladesh</strong></p>
+                            <ul>
+                                <li><strong>Developed Core Business Logic:</strong> Collaborated closely with the development team to build and implement essential business functionalities using <strong>PHP</strong> and <strong>Vue.js</strong>, ensuring scalable and efficient performance.</li>
+                                <li><strong>UI/UX Design:</strong> Designed intuitive and user-friendly interfaces leveraging modern design principles to enhance user experience and engagement.</li>                                
+                                <li><strong>Team Collaboration:</strong> Worked collaboratively with cross-functional teams, contributing to project planning, code reviews, and problem-solving to meet project deadlines and objectives.</li>
+                            </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2024 - Present</span></div>
                     </div>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <!-- <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
                             <h3 class="mb-0">Web Developer</h3>
                             <div class="subheading mb-3">Intelitec Solutions</div>
@@ -94,7 +113,7 @@
                             <p>Collaboratively administrate empowered markets via plug-and-play networks. Dynamically procrastinate B2C users after installed base benefits. Dramatically visualize customer directed convergence without revolutionary ROI.</p>
                         </div>
                         <div class="flex-shrink-0"><span class="text-primary">September 2008 - June 2010</span></div>
-                    </div>
+                    </div> -->
                 </div>
             </section>
             <hr class="m-0" />
@@ -104,11 +123,15 @@
                     <h2 class="mb-5 projects-heading">Projects</h2>
                     <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">Implemention of Time series analysis on stack exchange data</h3>
-                            <div class="subheading mb-3">Habi Jabi</div>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor necessitatibus alias, fugit labore vel ratione? Aut eligendi qui hic rem molestias aspernatur necessitatibus sunt quasi. Quam deleniti iste fugit praesentium?</p>
+                            <h3 class="mb-0">Tech Trend Predictor</h3>
+                            <p><strong>Personal Project | July 2024 - Present</strong></p>
+                            <ul>
+                                <li><strong>Technology Stack:</strong> Backend developed with <strong>Python Django</strong> and frontend with <strong>Vue.js</strong>.</li>
+                                <li><strong>Project Overview:</strong> Utilizes the StackOverflow API to predict technology trends through machine learning algorithms, offering insights into emerging technologies and popular topics.</li>
+                                <li><strong>Role:</strong> Sole developer, handling both backend and frontend development, and implementing machine learning models for data analysis.</li>
+                            </ul>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">March 2013 - Present</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">July 2024 - Present</span></div>
                     </div>
                 </div>
             </section>
@@ -117,29 +140,38 @@
             <section class="resume-section" id="education">
                 <div class="resume-section-content">
                     <h2 class="mb-5 education-heading">Education</h2>
-                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">University of Colorado Boulder</h3>
+                            <h3 class="mb-0">American International University Bangladesh</h3>
                             <div class="subheading mb-3">Bachelor of Science</div>
-                            <div>Computer Science - Web Development Track</div>
-                            <p>GPA: 3.23</p>
+                            <div class="">Computer Science & Engineering </div>
+                            <div>Major : Information System</div>
+                            <p>CGPA: 3.14</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2006 - May 2010</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">May 2018 - June 2022</span></div>
                     </div>
                     <div class="d-flex flex-column flex-md-row justify-content-between">
                         <div class="flex-grow-1">
-                            <h3 class="mb-0">James Buchanan High School</h3>
-                            <div class="subheading mb-3">Technology Magnet Program</div>
-                            <p>GPA: 3.56</p>
+                            <h3 class="mb-0">Shaheed Ramiz Udding Cantonment College</h3>
+                            <div class="subheading mb-3">Higher Secondary Certificate</div>
+                            <p>GPA: 4.08</p>
                         </div>
-                        <div class="flex-shrink-0"><span class="text-primary">August 2002 - May 2006</span></div>
+                        <div class="flex-shrink-0"><span class="text-primary">June 2015 - July 2017</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Kalachadpur Uccha Maddamic Biddalaya</h3>
+                            <div class="subheading mb-3">Secondary School Certificate</div>
+                            <p>GPA: 4.56</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2013 - May 2015</span></div>
                     </div>
                 </div>
             </section>
             <hr class="m-0" />
             <!-- Skills-->
             <section class="resume-section" id="skills">
-                <div class="resume-section-content">
+                <!-- <div class="resume-section-content">
                     <h2 class="mb-5 skills-heading">Skills</h2>
                     <div class="subheading mb-3">Programming Languages & Tools</div>
                     <ul class="list-inline dev-icons">
@@ -164,7 +196,7 @@
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Cross Browser Testing & Debugging
+                            Cross Platform Application Developmet
                         </li>
                         <li>
                             <span class="fa-li"><i class="fas fa-check"></i></span>
@@ -175,6 +207,70 @@
                             Agile Development & Scrum
                         </li>
                     </ul>
+                </div> -->
+                <div class="resume-section-content">
+                    <h2 class="mb-5 skills-heading">Skills</h2>
+                    
+                    <!-- Programming Languages & Tools -->
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5" title="HTML5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt" title="CSS3"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square" title="JavaScript"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-react" title="React"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-npm" title="npm"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-python" title="python"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-java" title="java"></i></li>
+                        <!-- Add more icons as needed -->
+                    </ul>
+            
+                    <!-- Advanced Tools & Technologies -->
+                    <div class="subheading mb-3">Advanced Tools & Technologies</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-docker" title="Docker"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-figma" title="Figma"></i></li>
+                        <li class="list-inline-item"><i class="fa-brands fa-gitlab" title="GitLab"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-github" title="GitLab"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-cogs" title="Configuration Management"></i></li>
+                        <!-- Add more icons as needed -->
+                    </ul>
+            
+                    <!-- Emerging Technologies -->
+                    <div class="subheading mb-3">Emerging Technologies</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Quantum Computing
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Decentralized Networks
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            AI-Driven Solutions
+                        </li>
+                        <!-- Add more items as needed -->
+                    </ul>
+            
+                    <!-- Specialized Skills -->
+                    <div class="subheading mb-3">Specialized Skills</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Formal Verification & Model Checking
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            High-Efficiency Code Optimization
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            UI/UX Design
+                        </li>
+                     
+                        <!-- Add more items as needed -->
+                    </ul>
                 </div>
             </section>
             <hr class="m-0" />
@@ -182,55 +278,43 @@
             <section class="resume-section" id="interests">
                 <div class="resume-section-content">
                     <h2 class="mb-5 interests-heading">Interests</h2>
-                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
-                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                    <p class="mb-2">
+                        My interests lie at the intersection of cutting-edge technology and innovative research. I am deeply fascinated by the potential of decentralized networks and their ability to revolutionize how we connect and interact online. The concept of a Quantum Internet, which could fundamentally change the way we transmit data, is particularly exciting to me. I am passionate about exploring the realms of Quantum Computing and its implications for the future of technology.
+                    </p>
+                    
+                    <p class="mb-2">
+                        Another area of great interest is Artificial Intelligence, especially when combined with advanced encryption techniques. I am driven by the challenge of creating a universal encryption system that leverages AI to enhance security and privacy. My curiosity extends to the field of machine learning and deep learning, where I enjoy developing models that can solve complex problems and make predictions based on data.
+                    </p>
+
                 </div>
             </section>
             <hr class="m-0" />
             <!-- Awards-->
-            <section class="resume-section" id="awards">
+            <section class="resume-section" id="certifications">
                 <div class="resume-section-content">
                     <h2 class="mb-5 certifications-heading">Certifications</h2>
-                    <ul class="fa-ul mb-0">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Google Analytics Certified Developer
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            Mobile Web Specialist - Google Certification
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2009
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - University of Colorado Boulder - Adobe Creative Jam 2008 (UI Design Category)
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            2
-                            <sup>nd</sup>
-                            Place - University of Colorado Boulder - Emerging Tech Competition 2008
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            1
-                            <sup>st</sup>
-                            Place - James Buchanan High School - Hackathon 2006
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-trophy text-warning"></i></span>
-                            3
-                            <sup>rd</sup>
-                            Place - James Buchanan High School - Hackathon 2005
-                        </li>
-                    </ul>
+                    <div class="row">
+                        <!-- Certification 1 -->
+                        <div class="col-md-5 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Introduction to Front-End Development</h5>
+                                    <p class="card-text">Coursera</p>
+                                    <a href="https://coursera.org/share/c32300bfcc9a0f55acbe4a9f5b264c16" target="_blank" class="btn" style="background-color: #e84949;">View Certificate</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Certification 2 -->
+                        <div class="col-md-6 mb-4">
+                            <div class="card h-100">
+                                <div class="card-body">
+                                    <h5 class="card-title">Linux Fundamentals</h5>
+                                    <p class="card-text">Coursera</p>
+                                    <a href="https://coursera.org/share/5ce1a0c3e2f647f34f553d59ba0d5954" target="_blank" class="btn" style="background-color:#e84949;">View Certificate</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
         </div>

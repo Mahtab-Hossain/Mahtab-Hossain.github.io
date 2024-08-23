@@ -11186,6 +11186,88 @@ p.lead {
   outline-color: #d48a6e;
 }
 /* mycssstyle */
+/* Button Styling */
+.contact-button {
+  background-color:#000000;
+  color:#fff;
+  border: none;
+  margin: 10px;
+  padding: 5px 10px;
+  font-size: 25px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.contact-button:hover {
+  background-color: #b02a37;
+  color:#000000;
+}
+
+/* Modal Styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  animation: fadeIn 0.5s; /* Fade-in animation */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+  max-width: 500px;
+  animation: slideIn 0.5s; /* Slide-in animation */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+/* Slide-in Animation */
+@keyframes slideIn {
+  from { transform: translateY(-50px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+/* Contact Email Styling */
+.contact-email {
+  color:#6a1a21;
+  text-decoration: none;
+}
+
+.contact-email:hover {
+  text-decoration: underline;
+  color: #000000;
+}
+
+
 .experience-heading {
   text-align:center; /* Centers the heading */
   border: 1px solid #000; /* Adds a 1px solid black border */

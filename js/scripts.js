@@ -32,3 +32,26 @@ window.addEventListener('DOMContentLoaded', event => {
     });
 
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+    const modal = document.getElementById('contact-modal');
+    const btn = document.getElementById('contact-button');
+    const span = document.querySelector('.close');
+
+    // Open the modal
+    btn.onclick = () => {
+        modal.style.display = 'block';
+    }
+
+    // Close the modal
+    span.onclick = () => {
+        modal.style.display = 'none';
+    }
+
+    // Close the modal if the user clicks outside of it
+    window.onclick = (event) => {
+        if (event.target === modal) {
+            modal.style.display = 'none';
+        }
+    }
+});
